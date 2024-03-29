@@ -1,0 +1,44 @@
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  border: 2px solid #ddd; /* Add border to the entire table */
+}
+
+th,
+td {
+  color: blue;
+  border: 1px solid #ddd; /* Add border to table cells */
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+/* Section styles */
+.section {
+  margin-bottom: 20px;
+}
+
+.section-title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.cars-img {
+  width: 35%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.contact-us-img {
+  width: 50%;
+  text-align: center;
+}
