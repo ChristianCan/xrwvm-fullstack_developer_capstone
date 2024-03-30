@@ -57,7 +57,7 @@ def get_dealerships(request, state="All"):
     else:
         endpoint = "/fetchDealers/"+state
     dealerships = get_request(endpoint)
-    return JsonResponse({"status":200,"dealers":dealerships}
+    return JsonResponse({"status":200,"dealers":dealerships})
 
 def post_review(data_dict):
     request_url = backend_url+"/insert_review"
